@@ -1,0 +1,166 @@
+<!-- GENERATED FILE — do not edit by hand.
+     Refresh with: python tools/gen_cores.py ../Forks_MiSTer/Forks.ini -->
+
+# Supported Cores
+
+MiSTer-DB9 ships DB9 / DB15 / SNAC8 controller support across **155 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+
+The **Saturn** column marks cores with key-gated Saturn adapter support (`sys/joydb9saturn.v`), unlocked by `db9pro.key`. A blank cell means DB9MD / DB15 / SNAC8 only.
+
+| Core | Fork repo | Upstream | Saturn |
+|---|---|---|:---:|
+| AdventureVision | [MiSTer-DB9/AdventureVision_MiSTer](https://github.com/MiSTer-DB9/AdventureVision_MiSTer) | [upstream](https://github.com/MiSTer-devel/AdventureVision_MiSTer) | ✅ |
+| AliceMC10 | [MiSTer-DB9/AliceMC10_MiSTer](https://github.com/MiSTer-DB9/AliceMC10_MiSTer) | [upstream](https://github.com/MiSTer-devel/AliceMC10_MiSTer) | ✅ |
+| Amstrad | [MiSTer-DB9/Amstrad_MiSTer](https://github.com/MiSTer-DB9/Amstrad_MiSTer) | [upstream](https://github.com/MiSTer-devel/Amstrad_MiSTer) | ✅ |
+| Amstrad-PCW | [MiSTer-DB9/Amstrad-PCW_MiSTer](https://github.com/MiSTer-DB9/Amstrad-PCW_MiSTer) | [upstream](https://github.com/MiSTer-devel/Amstrad-PCW_MiSTer) | ✅ |
+| ao486 | [MiSTer-DB9/ao486_MiSTer](https://github.com/MiSTer-DB9/ao486_MiSTer) | [upstream](https://github.com/MiSTer-devel/ao486_MiSTer) | ✅ |
+| ao486USERIO2 | [MiSTer-DB9/ao486_MiSTer](https://github.com/MiSTer-DB9/ao486_MiSTer) | [upstream](https://github.com/MiSTer-devel/ao486_MiSTer) |  |
+| Apple-II | [MiSTer-DB9/Apple-II_MiSTer](https://github.com/MiSTer-DB9/Apple-II_MiSTer) | [upstream](https://github.com/MiSTer-devel/Apple-II_MiSTer) | ✅ |
+| Aquarius | [MiSTer-DB9/Aquarius_MISTer](https://github.com/MiSTer-DB9/Aquarius_MISTer) | [upstream](https://github.com/MiSTer-devel/Aquarius_MISTer) |  |
+| Arcade-Arkanoid | [MiSTer-DB9/Arcade-Arkanoid_MISTer](https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer) |  |
+| Arcade-Asteroids | [MiSTer-DB9/Arcade-Asteroids_MiSTer](https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer) | ✅ |
+| Arcade-AsteroidsDeluxe | [MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister](https://github.com/MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister) | [upstream](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_Mister) |  |
+| Arcade-Astrocade | [MiSTer-DB9/Arcade-Astrocade_MiSTer](https://github.com/MiSTer-DB9/Arcade-Astrocade_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer) | ✅ |
+| Arcade-atarisys1 | [MiSTer-DB9/Arcade-Atari-system1_MiSTer](https://github.com/MiSTer-DB9/Arcade-Atari-system1_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Atari-system1_MiSTer) |  |
+| Arcade-AtariTetris | [MiSTer-DB9/Arcade-ATetris_MiSTer](https://github.com/MiSTer-DB9/Arcade-ATetris_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer) |  |
+| Arcade-Bagman | [MiSTer-DB9/Arcade-Bagman_MiSTer](https://github.com/MiSTer-DB9/Arcade-Bagman_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Bagman_MiSTer) | ✅ |
+| Arcade-Berzerk | [MiSTer-DB9/Arcade-Berzerk_MiSTer](https://github.com/MiSTer-DB9/Arcade-Berzerk_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Berzerk_MiSTer) | ✅ |
+| Arcade-BlackWidow | [MiSTer-DB9/Arcade-BlackWidow_MiSTer](https://github.com/MiSTer-DB9/Arcade-BlackWidow_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-BlackWidow_MiSTer) | ✅ |
+| Arcade-BombJack | [MiSTer-DB9/Arcade-BombJack_MiSTer](https://github.com/MiSTer-DB9/Arcade-BombJack_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-BombJack_MiSTer) | ✅ |
+| Arcade-BurgerTime | [MiSTer-DB9/Arcade-BurgerTime_MiSTer](https://github.com/MiSTer-DB9/Arcade-BurgerTime_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-BurgerTime_MiSTer) | ✅ |
+| Arcade-BurningRubber | [MiSTer-DB9/Arcade-BurningRubber_MiSTer](https://github.com/MiSTer-DB9/Arcade-BurningRubber_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-BurningRubber_MiSTer) | ✅ |
+| Arcade-CanyonBomber | [MiSTer-DB9/Arcade-CanyonBomber_MiSTer](https://github.com/MiSTer-DB9/Arcade-CanyonBomber_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-CanyonBomber_MiSTer) | ✅ |
+| Arcade-Cave | [MiSTer-DB9/Arcade-Cave_MiSTer](https://github.com/MiSTer-DB9/Arcade-Cave_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Cave_MiSTer) | ✅ |
+| Arcade-Centipede | [MiSTer-DB9/Arcade-Centipede_MiSTer](https://github.com/MiSTer-DB9/Arcade-Centipede_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Centipede_MiSTer) | ✅ |
+| Arcade-ComputerSpace | [MiSTer-DB9/Arcade-ComputerSpace_MiSTer](https://github.com/MiSTer-DB9/Arcade-ComputerSpace_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-ComputerSpace_MiSTer) | ✅ |
+| Arcade-CrazyBalloon | [MiSTer-DB9/Arcade-CrazyBalloon_MiSTer](https://github.com/MiSTer-DB9/Arcade-CrazyBalloon_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer) | ✅ |
+| Arcade-CrazyClimber | [MiSTer-DB9/Arcade-CrazyClimber_MiSTer](https://github.com/MiSTer-DB9/Arcade-CrazyClimber_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer) | ✅ |
+| Arcade-CrazyKong | [MiSTer-DB9/Arcade-CrazyKong_MiSTer](https://github.com/MiSTer-DB9/Arcade-CrazyKong_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer) | ✅ |
+| Arcade-Defender | [MiSTer-DB9/Arcade-Defender_MiSTer](https://github.com/MiSTer-DB9/Arcade-Defender_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer) | ✅ |
+| Arcade-DigDug | [MiSTer-DB9/Arcade-DigDug_MiSTer](https://github.com/MiSTer-DB9/Arcade-DigDug_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer) | ✅ |
+| Arcade-Dominos | [MiSTer-DB9/Arcade-Dominos_MiSTer](https://github.com/MiSTer-DB9/Arcade-Dominos_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer) | ✅ |
+| Arcade-DonkeyKong | [MiSTer-DB9/Arcade-DonkeyKong_MiSTer](https://github.com/MiSTer-DB9/Arcade-DonkeyKong_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-DonkeyKong_MiSTer) | ✅ |
+| Arcade-DonkeyKong3 | [MiSTer-DB9/Arcade-DonkeyKong3_MiSTer](https://github.com/MiSTer-DB9/Arcade-DonkeyKong3_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-DonkeyKong3_MiSTer) | ✅ |
+| Arcade-DonkeyKongJunior | [MiSTer-DB9/Arcade-DonkeyKongJunior_MiSTer](https://github.com/MiSTer-DB9/Arcade-DonkeyKongJunior_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-DonkeyKongJunior_MiSTer) | ✅ |
+| Arcade-Druaga | [MiSTer-DB9/Arcade-Druaga_MiSTer](https://github.com/MiSTer-DB9/Arcade-Druaga_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Druaga_MiSTer) | ✅ |
+| Arcade-Finalizer | [MiSTer-DB9/Arcade-Finalizer_MiSTer](https://github.com/MiSTer-DB9/Arcade-Finalizer_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Finalizer_MiSTer) | ✅ |
+| Arcade-FoodFight | [MiSTer-DB9/Arcade-FoodFight_MiSTer](https://github.com/MiSTer-DB9/Arcade-FoodFight_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer) | ✅ |
+| Arcade-Frenzy | [MiSTer-DB9/Arcade-Frenzy_MiSTer](https://github.com/MiSTer-DB9/Arcade-Frenzy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Frenzy_MiSTer) | ✅ |
+| Arcade-Galaga | [MiSTer-DB9/Arcade-Galaga_MiSTer](https://github.com/MiSTer-DB9/Arcade-Galaga_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Galaga_MiSTer) | ✅ |
+| Arcade-Galaxian | [MiSTer-DB9/Arcade-Galaxian_MiSTer](https://github.com/MiSTer-DB9/Arcade-Galaxian_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Galaxian_MiSTer) | ✅ |
+| Arcade-Gaplus | [MiSTer-DB9/Arcade-Gaplus_MiSTer](https://github.com/MiSTer-DB9/Arcade-Gaplus_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer) | ✅ |
+| Arcade-Gauntlet | [MiSTer-DB9/Arcade-Gauntlet_MiSTer](https://github.com/MiSTer-DB9/Arcade-Gauntlet_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) | ✅ |
+| Arcade-Gyruss | [MiSTer-DB9/MiSTer-Arcade-Gyruss](https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss) | [upstream](https://github.com/MrX-8B/MiSTer-Arcade-Gyruss) |  |
+| Arcade-IremM62 | [MiSTer-DB9/Arcade-IremM62_MiSTer](https://github.com/MiSTer-DB9/Arcade-IremM62_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) | ✅ |
+| Arcade-IremM72 | [MiSTer-DB9/Arcade-IremM72_MiSTer](https://github.com/MiSTer-DB9/Arcade-IremM72_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IremM72_MiSTer) | ✅ |
+| Arcade-IremM92 | [MiSTer-DB9/Arcade-IremM92_MiSTer](https://github.com/MiSTer-DB9/Arcade-IremM92_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IremM92_MiSTer) | ✅ |
+| Arcade-IronHorse | [MiSTer-DB9/Arcade-IronHorse_MiSTer](https://github.com/MiSTer-DB9/Arcade-IronHorse_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IronHorse_MiSTer) | ✅ |
+| Arcade-Jackal | [MiSTer-DB9/Arcade-Jackal_MiSTer](https://github.com/MiSTer-DB9/Arcade-Jackal_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Jackal_MiSTer) | ✅ |
+| Arcade-Jailbreak | [MiSTer-DB9/Arcade-Jailbreak_MiSTer](https://github.com/MiSTer-DB9/Arcade-Jailbreak_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Jailbreak_MiSTer) | ✅ |
+| Arcade-LadyBug | [MiSTer-DB9/Arcade-LadyBug_MiSTer](https://github.com/MiSTer-DB9/Arcade-LadyBug_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer) | ✅ |
+| Arcade-LunarLander | [MiSTer-DB9/Arcade-LunarLander_MiSTer](https://github.com/MiSTer-DB9/Arcade-LunarLander_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer) | ✅ |
+| Arcade-MarioBros | [MiSTer-DB9/Arcade-MarioBros_MiSTer](https://github.com/MiSTer-DB9/Arcade-MarioBros_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer) | ✅ |
+| Arcade-MCR1 | [MiSTer-DB9/Arcade-MCR1_MiSTer](https://github.com/MiSTer-DB9/Arcade-MCR1_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer) | ✅ |
+| Arcade-MCR2 | [MiSTer-DB9/Arcade-MCR2_MiSTer](https://github.com/MiSTer-DB9/Arcade-MCR2_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) | ✅ |
+| Arcade-MCR3 | [MiSTer-DB9/Arcade-MCR3_MiSTer](https://github.com/MiSTer-DB9/Arcade-MCR3_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MCR3_MiSTer) | ✅ |
+| Arcade-MCR3Mono | [MiSTer-DB9/Arcade-MCR3Mono_MiSTer](https://github.com/MiSTer-DB9/Arcade-MCR3Mono_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MCR3Mono_MiSTer) | ✅ |
+| Arcade-MCR3Scroll | [MiSTer-DB9/Arcade-MCR3Scroll_MiSTer](https://github.com/MiSTer-DB9/Arcade-MCR3Scroll_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MCR3Scroll_MiSTer) | ✅ |
+| Arcade-MissileCommand | [MiSTer-DB9/Arcade-MissileCommand_MiSTer](https://github.com/MiSTer-DB9/Arcade-MissileCommand_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MissileCommand_MiSTer) | ✅ |
+| Arcade-MoonPatrol | [MiSTer-DB9/Arcade-MoonPatrol_MiSTer](https://github.com/MiSTer-DB9/Arcade-MoonPatrol_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MoonPatrol_MiSTer) | ✅ |
+| Arcade-MrDo | [MiSTer-DB9/Arcade-MrDo_MiSTer](https://github.com/MiSTer-DB9/Arcade-MrDo_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MrDo_MiSTer) | ✅ |
+| Arcade-NinjaKun | [MiSTer-DB9/Arcade-NinjaKun_MiSTer](https://github.com/MiSTer-DB9/Arcade-NinjaKun_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-NinjaKun_MiSTer) | ✅ |
+| Arcade-Pacman | [MiSTer-DB9/Arcade-Pacman_MiSTer](https://github.com/MiSTer-DB9/Arcade-Pacman_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Pacman_MiSTer) | ✅ |
+| Arcade-Pengo | [MiSTer-DB9/Arcade-Pengo_MiSTer](https://github.com/MiSTer-DB9/Arcade-Pengo_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Pengo_MiSTer) | ✅ |
+| Arcade-Phoenix | [MiSTer-DB9/Arcade-Phoenix_MiSTer](https://github.com/MiSTer-DB9/Arcade-Phoenix_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Phoenix_MiSTer) | ✅ |
+| Arcade-Pleiads | [MiSTer-DB9/Arcade-Pleiads_MiSTer](https://github.com/MiSTer-DB9/Arcade-Pleiads_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Pleiads_MiSTer) | ✅ |
+| Arcade-Pooyan | [MiSTer-DB9/Arcade-Pooyan_MiSTer](https://github.com/MiSTer-DB9/Arcade-Pooyan_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Pooyan_MiSTer) | ✅ |
+| Arcade-Popeye | [MiSTer-DB9/Arcade-Popeye_MiSTer](https://github.com/MiSTer-DB9/Arcade-Popeye_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Popeye_MiSTer) | ✅ |
+| Arcade-QBert | [MiSTer-DB9/Arcade-QBert_MiSTer](https://github.com/MiSTer-DB9/Arcade-QBert_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-QBert_MiSTer) | ✅ |
+| Arcade-RallyX | [MiSTer-DB9/Arcade-RallyX_MiSTer](https://github.com/MiSTer-DB9/Arcade-RallyX_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer) | ✅ |
+| Arcade-RiverPatrol | [MiSTer-DB9/Arcade-RiverPatrol_MiSTer](https://github.com/MiSTer-DB9/Arcade-RiverPatrol_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-RiverPatrol_MiSTer) | ✅ |
+| Arcade-Robotron | [MiSTer-DB9/Arcade-Robotron_MiSTer](https://github.com/MiSTer-DB9/Arcade-Robotron_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Robotron_MiSTer) | ✅ |
+| Arcade-RshnAtk | [MiSTer-DB9/Arcade-RushnAttack_MiSTer](https://github.com/MiSTer-DB9/Arcade-RushnAttack_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-RushnAttack_MiSTer) |  |
+| Arcade-Salamander | [MiSTer-DB9/Arcade-Salamander_MiSTer](https://github.com/MiSTer-DB9/Arcade-Salamander_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Salamander_MiSTer) | ✅ |
+| Arcade-ScooterShooter | [MiSTer-DB9/Arcade-ScooterShooter_MiSTer](https://github.com/MiSTer-DB9/Arcade-ScooterShooter_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-ScooterShooter_MiSTer) | ✅ |
+| Arcade-Scramble | [MiSTer-DB9/Arcade-Scramble_MiSTer](https://github.com/MiSTer-DB9/Arcade-Scramble_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer) | ✅ |
+| Arcade-SEGASYS1 | [MiSTer-DB9/Arcade-SEGASYS1_MiSTer](https://github.com/MiSTer-DB9/Arcade-SEGASYS1_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-SEGASYS1_MiSTer) | ✅ |
+| Arcade-SilverLand | [MiSTer-DB9/Arcade-SilverLand_MiSTer](https://github.com/MiSTer-DB9/Arcade-SilverLand_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-SilverLand_MiSTer) | ✅ |
+| Arcade-SolomonsKey | [MiSTer-DB9/Arcade-SolomonsKey_MiSTer](https://github.com/MiSTer-DB9/Arcade-SolomonsKey_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-SolomonsKey_MiSTer) | ✅ |
+| Arcade-SpaceInvaders | [MiSTer-DB9/Arcade-SpaceInvaders_MiSTer](https://github.com/MiSTer-DB9/Arcade-SpaceInvaders_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-SpaceInvaders_MiSTer) | ✅ |
+| Arcade-Sprint1 | [MiSTer-DB9/Arcade-Sprint1_MiSTer](https://github.com/MiSTer-DB9/Arcade-Sprint1_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Sprint1_MiSTer) | ✅ |
+| Arcade-Sprint2 | [MiSTer-DB9/Arcade-Sprint2_MiSTer](https://github.com/MiSTer-DB9/Arcade-Sprint2_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Sprint2_MiSTer) | ✅ |
+| Arcade-SuperBreakout | [MiSTer-DB9/Arcade-SuperBreakout_MiSTer](https://github.com/MiSTer-DB9/Arcade-SuperBreakout_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer) | ✅ |
+| Arcade-TaitoSJ | [MiSTer-DB9/Arcade-TaitoSystemSJ_MiSTer](https://github.com/MiSTer-DB9/Arcade-TaitoSystemSJ_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-TaitoSystemSJ_MiSTer) |  |
+| Arcade-Tecmo | [MiSTer-DB9/Arcade-Tecmo_MiSTer](https://github.com/MiSTer-DB9/Arcade-Tecmo_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer) | ✅ |
+| Arcade-TimePilot | [MiSTer-DB9/Arcade-TimePilot_MiSTer](https://github.com/MiSTer-DB9/Arcade-TimePilot_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-TimePilot_MiSTer) | ✅ |
+| Arcade-TimePilot84 | [MiSTer-DB9/Arcade-TimePilot84_MISTer](https://github.com/MiSTer-DB9/Arcade-TimePilot84_MISTer) | [upstream](https://github.com/MiSTer-devel/Arcade-TimePilot84_MISTer) |  |
+| Arcade-TraverseUSA | [MiSTer-DB9/Arcade-TraverseUSA_MiSTer](https://github.com/MiSTer-DB9/Arcade-TraverseUSA_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-TraverseUSA_MiSTer) | ✅ |
+| Arcade-Tutankham | [MiSTer-DB9/Arcade-Tutankham_MiSTer](https://github.com/MiSTer-DB9/Arcade-Tutankham_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Tutankham_MiSTer) | ✅ |
+| Arcade-Ultratank | [MiSTer-DB9/Arcade-Ultratank_MiSTer](https://github.com/MiSTer-DB9/Arcade-Ultratank_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Ultratank_MiSTer) | ✅ |
+| Arcade-Xevious | [MiSTer-DB9/Arcade-Xevious_MiSTer](https://github.com/MiSTer-DB9/Arcade-Xevious_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Xevious_MiSTer) | ✅ |
+| Arcade-Zaxxon | [MiSTer-DB9/Arcade-Zaxxon_MiSTer](https://github.com/MiSTer-DB9/Arcade-Zaxxon_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Zaxxon_MiSTer) | ✅ |
+| Arcade-ZigZag | [MiSTer-DB9/Arcade-ZigZag_MiSTer](https://github.com/MiSTer-DB9/Arcade-ZigZag_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-ZigZag_MiSTer) | ✅ |
+| Archie | [MiSTer-DB9/Archie_MiSTer](https://github.com/MiSTer-DB9/Archie_MiSTer) | [upstream](https://github.com/MiSTer-devel/Archie_MiSTer) | ✅ |
+| Arduboy | [MiSTer-DB9/Arduboy_MiSTer](https://github.com/MiSTer-DB9/Arduboy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arduboy_MiSTer) | ✅ |
+| Astrocade | [MiSTer-DB9/Astrocade_MiSTer](https://github.com/MiSTer-DB9/Astrocade_MiSTer) | [upstream](https://github.com/MiSTer-devel/Astrocade_MiSTer) | ✅ |
+| Atari5200 | [MiSTer-DB9/Atari800_MiSTer](https://github.com/MiSTer-DB9/Atari800_MiSTer) | [upstream](https://github.com/MiSTer-devel/Atari800_MiSTer) |  |
+| Atari7800 | [MiSTer-DB9/Atari7800_MiSTer](https://github.com/MiSTer-DB9/Atari7800_MiSTer) | [upstream](https://github.com/MiSTer-devel/Atari7800_MiSTer) | ✅ |
+| Atari800 | [MiSTer-DB9/Atari800_MiSTer](https://github.com/MiSTer-DB9/Atari800_MiSTer) | [upstream](https://github.com/MiSTer-devel/Atari800_MiSTer) | ✅ |
+| AtariLynx | [MiSTer-DB9/AtariLynx_MiSTer](https://github.com/MiSTer-DB9/AtariLynx_MiSTer) | [upstream](https://github.com/MiSTer-devel/AtariLynx_MiSTer) | ✅ |
+| AtariST | [MiSTer-DB9/AtariST_MiSTer](https://github.com/MiSTer-DB9/AtariST_MiSTer) | [upstream](https://github.com/MiSTer-devel/AtariST_MiSTer) | ✅ |
+| AtariSTUSERIO2 | [MiSTer-DB9/AtariST_MiSTer](https://github.com/MiSTer-DB9/AtariST_MiSTer) | [upstream](https://github.com/MiSTer-devel/AtariST_MiSTer) |  |
+| AY-3-8500 | [MiSTer-DB9/AY-3-8500-MiSTer](https://github.com/MiSTer-DB9/AY-3-8500-MiSTer) | [upstream](https://github.com/MiSTer-devel/AY-3-8500-MiSTer) |  |
+| BBCMicro | [MiSTer-DB9/BBCMicro_MiSTer](https://github.com/MiSTer-DB9/BBCMicro_MiSTer) | [upstream](https://github.com/MiSTer-devel/BBCMicro_MiSTer) | ✅ |
+| C128 | [MiSTer-DB9/C128_MiSTer](https://github.com/MiSTer-DB9/C128_MiSTer) | [upstream](https://github.com/MiSTer-devel/C128_MiSTer) | ✅ |
+| C16 | [MiSTer-DB9/C16_MiSTer](https://github.com/MiSTer-DB9/C16_MiSTer) | [upstream](https://github.com/MiSTer-devel/C16_MiSTer) | ✅ |
+| C64 | [MiSTer-DB9/C64_MiSTer](https://github.com/MiSTer-DB9/C64_MiSTer) | [upstream](https://github.com/MiSTer-devel/C64_MiSTer) | ✅ |
+| Casio_PV-1000 | [MiSTer-DB9/Casio_PV-1000_MiSTer](https://github.com/MiSTer-DB9/Casio_PV-1000_MiSTer) | [upstream](https://github.com/MiSTer-devel/Casio_PV-1000_MiSTer) | ✅ |
+| CDi | [MiSTer-DB9/CDi_MiSTer](https://github.com/MiSTer-DB9/CDi_MiSTer) | [upstream](https://github.com/MiSTer-devel/CDi_MiSTer) | ✅ |
+| ColecoVision | [MiSTer-DB9/ColecoVision_MiSTer](https://github.com/MiSTer-DB9/ColecoVision_MiSTer) | [upstream](https://github.com/MiSTer-devel/ColecoVision_MiSTer) | ✅ |
+| CreatiVision | [MiSTer-DB9/CreatiVision_MiSTer](https://github.com/MiSTer-DB9/CreatiVision_MiSTer) | [upstream](https://github.com/MiSTer-devel/CreatiVision_MiSTer) | ✅ |
+| EpochGalaxyII | [MiSTer-DB9/EpochGalaxy2_MiSTer](https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer) | [upstream](https://github.com/MiSTer-devel/EpochGalaxy2_MiSTer) |  |
+| FlappyBird | [MiSTer-DB9/FlappyBird_MiSTer](https://github.com/MiSTer-DB9/FlappyBird_MiSTer) | [upstream](https://github.com/MiSTer-devel/FlappyBird_MiSTer) | ✅ |
+| Gameboy | [MiSTer-DB9/Gameboy_MiSTer](https://github.com/MiSTer-DB9/Gameboy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Gameboy_MiSTer) | ✅ |
+| Gameboy2P | [MiSTer-DB9/Gameboy_MiSTer](https://github.com/MiSTer-DB9/Gameboy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Gameboy_MiSTer) |  |
+| GBA | [MiSTer-DB9/GBA_MiSTer](https://github.com/MiSTer-DB9/GBA_MiSTer) | [upstream](https://github.com/MiSTer-devel/GBA_MiSTer) | ✅ |
+| GBA2P | [MiSTer-DB9/GBA_MiSTer](https://github.com/MiSTer-DB9/GBA_MiSTer) | [upstream](https://github.com/MiSTer-devel/GBA_MiSTer) |  |
+| GBA_accuracy | [MiSTer-DB9/GBA_MiSTer](https://github.com/MiSTer-DB9/GBA_MiSTer) | [upstream](https://github.com/MiSTer-devel/GBA_MiSTer) |  |
+| Genesis | [MiSTer-DB9/Genesis_MiSTer](https://github.com/MiSTer-DB9/Genesis_MiSTer) | [upstream](https://github.com/MiSTer-devel/Genesis_MiSTer) | ✅ |
+| GnW | [MiSTer-DB9/GnW_MiSTer](https://github.com/MiSTer-DB9/GnW_MiSTer) | [upstream](https://github.com/MiSTer-devel/GnW_MiSTer) | ✅ |
+| Jupiter | [MiSTer-DB9/Jupiter_MiSTer](https://github.com/MiSTer-DB9/Jupiter_MiSTer) | [upstream](https://github.com/MiSTer-devel/Jupiter_MiSTer) | ✅ |
+| Laser310 | [MiSTer-DB9/Laser310_MiSTer](https://github.com/MiSTer-DB9/Laser310_MiSTer) | [upstream](https://github.com/MiSTer-devel/Laser310_MiSTer) | ✅ |
+| MegaCD | [MiSTer-DB9/MegaCD_MiSTer](https://github.com/MiSTer-DB9/MegaCD_MiSTer) | [upstream](https://github.com/MiSTer-devel/MegaCD_MiSTer) | ✅ |
+| MegaDrive | [MiSTer-DB9/MegaDrive_MiSTer](https://github.com/MiSTer-DB9/MegaDrive_MiSTer) | [upstream](https://github.com/MiSTer-devel/MegaDrive_MiSTer) | ✅ |
+| Minimig | [MiSTer-DB9/Minimig-AGA_MiSTer](https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer) | [upstream](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) |  |
+| MinimigUSERIO2 | [MiSTer-DB9/Minimig-AGA_MiSTer](https://github.com/MiSTer-DB9/Minimig-AGA_MiSTer) | [upstream](https://github.com/MiSTer-devel/Minimig-AGA_MiSTer) |  |
+| MSX | [MiSTer-DB9/MSX_MiSTer](https://github.com/MiSTer-DB9/MSX_MiSTer) | [upstream](https://github.com/MiSTer-devel/MSX_MiSTer) | ✅ |
+| NeoGeo | [MiSTer-DB9/NeoGeo_MiSTer](https://github.com/MiSTer-DB9/NeoGeo_MiSTer) | [upstream](https://github.com/MiSTer-devel/NeoGeo_MiSTer) | ✅ |
+| NeoGeo_24MHz_cpu_only | [MiSTer-DB9/NeoGeo_MiSTer](https://github.com/MiSTer-DB9/NeoGeo_MiSTer) | [upstream](https://github.com/MiSTer-devel/NeoGeo_MiSTer) |  |
+| NES | [MiSTer-DB9/NES_MiSTer](https://github.com/MiSTer-DB9/NES_MiSTer) | [upstream](https://github.com/MiSTer-devel/NES_MiSTer) | ✅ |
+| Odyssey2 | [MiSTer-DB9/Odyssey2_MiSTer](https://github.com/MiSTer-DB9/Odyssey2_MiSTer) | [upstream](https://github.com/MiSTer-devel/Odyssey2_MiSTer) | ✅ |
+| Oric | [MiSTer-DB9/Oric_MiSTer](https://github.com/MiSTer-DB9/Oric_MiSTer) | [upstream](https://github.com/MiSTer-devel/Oric_MiSTer) | ✅ |
+| PCFX | [MiSTer-DB9/PCFX_MiSTer](https://github.com/MiSTer-DB9/PCFX_MiSTer) | [upstream](https://github.com/MiSTer-devel/PCFX_MiSTer) | ✅ |
+| prehisle | [MiSTer-DB9/PrehistoricIsle](https://github.com/MiSTer-DB9/PrehistoricIsle) | [upstream](https://github.com/va7deo/PrehistoricIsle) |  |
+| PSX | [MiSTer-DB9/PSX_MiSTer](https://github.com/MiSTer-DB9/PSX_MiSTer) | [upstream](https://github.com/MiSTer-devel/PSX_MiSTer) | ✅ |
+| PSX_DualSDRAM | [MiSTer-DB9/PSX_MiSTer](https://github.com/MiSTer-DB9/PSX_MiSTer) | [upstream](https://github.com/MiSTer-devel/PSX_MiSTer) |  |
+| QL | [MiSTer-DB9/QL_MiSTer](https://github.com/MiSTer-DB9/QL_MiSTer) | [upstream](https://github.com/MiSTer-devel/QL_MiSTer) | ✅ |
+| S32X | [MiSTer-DB9/S32X_MiSTer](https://github.com/MiSTer-DB9/S32X_MiSTer) | [upstream](https://github.com/MiSTer-devel/S32X_MiSTer) | ✅ |
+| SAMCoupe | [MiSTer-DB9/SAM-Coupe_MiSTer](https://github.com/MiSTer-DB9/SAM-Coupe_MiSTer) | [upstream](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer) |  |
+| Saturn | [MiSTer-DB9/Saturn_MiSTer](https://github.com/MiSTer-DB9/Saturn_MiSTer) | [upstream](https://github.com/MiSTer-devel/Saturn_MiSTer) | ✅ |
+| Saturn_DualSDRAM | [MiSTer-DB9/Saturn_MiSTer](https://github.com/MiSTer-DB9/Saturn_MiSTer) | [upstream](https://github.com/MiSTer-devel/Saturn_MiSTer) |  |
+| SGB | [MiSTer-DB9/SGB_MiSTer](https://github.com/MiSTer-DB9/SGB_MiSTer) | [upstream](https://github.com/MiSTer-devel/SGB_MiSTer) | ✅ |
+| SMS | [MiSTer-DB9/SMS_MiSTer](https://github.com/MiSTer-DB9/SMS_MiSTer) | [upstream](https://github.com/MiSTer-devel/SMS_MiSTer) | ✅ |
+| SNES | [MiSTer-DB9/SNES_MiSTer](https://github.com/MiSTer-DB9/SNES_MiSTer) | [upstream](https://github.com/MiSTer-devel/SNES_MiSTer) | ✅ |
+| Ti994a | [MiSTer-DB9/TI-99_4A_MiSTer](https://github.com/MiSTer-DB9/TI-99_4A_MiSTer) | [upstream](https://github.com/MiSTer-devel/TI-99_4A_MiSTer) |  |
+| TomyScramble | [MiSTer-DB9/TomyScramble_MiSTer](https://github.com/MiSTer-DB9/TomyScramble_MiSTer) | [upstream](https://github.com/MiSTer-devel/TomyScramble_MiSTer) | ✅ |
+| TomyTutor | [MiSTer-DB9/TomyTutor_MiSTer](https://github.com/MiSTer-DB9/TomyTutor_MiSTer) | [upstream](https://github.com/MiSTer-devel/TomyTutor_MiSTer) | ✅ |
+| TRS-80 | [MiSTer-DB9/TRS-80_MiSTer](https://github.com/MiSTer-DB9/TRS-80_MiSTer) | [upstream](https://github.com/MiSTer-devel/TRS-80_MiSTer) | ✅ |
+| TSConf | [MiSTer-DB9/TSConf_MiSTer](https://github.com/MiSTer-DB9/TSConf_MiSTer) | [upstream](https://github.com/MiSTer-devel/TSConf_MiSTer) | ✅ |
+| TurboGrafx16 | [MiSTer-DB9/TurboGrafx16_MiSTer](https://github.com/MiSTer-DB9/TurboGrafx16_MiSTer) | [upstream](https://github.com/MiSTer-devel/TurboGrafx16_MiSTer) | ✅ |
+| Vector-06C | [MiSTer-DB9/Vector-06C_MiSTer](https://github.com/MiSTer-DB9/Vector-06C_MiSTer) | [upstream](https://github.com/MiSTer-devel/Vector-06C_MiSTer) | ✅ |
+| Vectrex | [MiSTer-DB9/Vectrex_MiSTer](https://github.com/MiSTer-DB9/Vectrex_MiSTer) | [upstream](https://github.com/MiSTer-devel/Vectrex_MiSTer) | ✅ |
+| VIC20 | [MiSTer-DB9/VIC20_MiSTer](https://github.com/MiSTer-DB9/VIC20_MiSTer) | [upstream](https://github.com/MiSTer-devel/VIC20_MiSTer) | ✅ |
+| X68000 | [MiSTer-DB9/X68000_MiSTer](https://github.com/MiSTer-DB9/X68000_MiSTer) | [upstream](https://github.com/MiSTer-devel/X68000_MiSTer) | ✅ |
+| X68000USERIO2 | [MiSTer-DB9/X68000_MiSTer](https://github.com/MiSTer-DB9/X68000_MiSTer) | [upstream](https://github.com/MiSTer-devel/X68000_MiSTer) |  |
+| ZX-Spectrum | [MiSTer-DB9/ZX-Spectrum_MISTer](https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer) | [upstream](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) |  |
+| ZX81 | [MiSTer-DB9/ZX81_MiSTer](https://github.com/MiSTer-DB9/ZX81_MiSTer) | [upstream](https://github.com/MiSTer-devel/ZX81_MiSTer) | ✅ |

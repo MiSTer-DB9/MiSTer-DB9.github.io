@@ -1,0 +1,123 @@
+{% extends "main.html" %}
+
+<!-- Custom landing page for MiSTer-DB9. Renders a hero + feature grid in place
+     of the normal article body. -->
+
+{% block tabs %}
+  {{ super() }}
+
+  <section class="db9-hero">
+    <div class="db9-hero__inner md-grid">
+      <div class="db9-hero__text">
+        <h1 class="db9-hero__title">Original retro controllers.<br>Zero latency. Real MiSTer.</h1>
+        <p class="db9-hero__subtitle">
+          MiSTer-DB9 is a fork of <a href="https://github.com/MiSTer-devel">MiSTer FPGA</a>
+          that reads your real Sega Genesis, Atari, Neo&nbsp;Geo, and Saturn pads straight
+          into the DE10-Nano <code>USER_IO</code> port — through DB9, DB15, SNAC8, and
+          Saturn adapters. No USB encoder, no polling delay.
+        </p>
+        <div class="db9-hero__cta">
+          <a href="vendor/user-guide/installation/" class="md-button md-button--primary">Get started</a>
+          <a href="cores/" class="md-button">Supported cores</a>
+          <a href="https://github.com/MiSTer-DB9" class="md-button">GitHub org</a>
+        </div>
+        <p class="db9-hero__note">
+          Cores auto-synced with MiSTer-devel every few hours · GPLv3
+        </p>
+      </div>
+      <div class="db9-hero__art" aria-hidden="true">
+        <img src="assets/logo.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="db9-features md-grid">
+    <h2 class="db9-section-title">What the fork adds</h2>
+
+    <div class="db9-pillars">
+      <div class="db9-pillar db9-pillar--free">
+        <h3>Always free</h3>
+        <p>Ships in every RBF, works with no key file.</p>
+        <ul class="db9-cards">
+          <li class="db9-card">
+            <h4>DB9MD</h4>
+            <p>Sega Genesis / Mega Drive 3-button &amp; 6-button pads.</p>
+          </li>
+          <li class="db9-card">
+            <h4>DB15</h4>
+            <p>Antonio Villena splitter — Neo Geo / Supergun layout.</p>
+          </li>
+          <li class="db9-card">
+            <h4>SNAC8</h4>
+            <p>Eight-pin direct cable, per-core lowest-latency path.</p>
+          </li>
+          <li class="db9-card">
+            <h4>OSD from the pad</h4>
+            <p>Navigate the menu with Start + C / A / B — no keyboard needed.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="db9-pillar db9-pillar--pro">
+        <h3>Key-gated <span class="db9-tag">db9pro.key</span></h3>
+        <p>Present in every build, inert until a valid key is found.</p>
+        <ul class="db9-cards">
+          <li class="db9-card">
+            <h4>Saturn 1P / 2P</h4>
+            <p>Digital pad over the 74HC157D mux adapter, both player ports.</p>
+          </li>
+          <li class="db9-card">
+            <h4>3D Control Pad</h4>
+            <p>Saturn 3D pad detection, even on non-Saturn cores.</p>
+          </li>
+          <li class="db9-card">
+            <h4>MT32-pi safe</h4>
+            <p>Anti-contention double gate so MT32-pi and DB9 share USER_IO safely.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="db9-install">
+    <div class="db9-install__inner md-grid">
+      <h2 class="db9-section-title">Install in three steps</h2>
+      <ol class="db9-steps">
+        <li>
+          <span class="db9-steps__n">1</span>
+          <div>
+            <h4>Add the ENCC database</h4>
+            <p>Point the MiSTer Downloader at the
+            <a href="https://github.com/MiSTer-DB9/Distribution_MiSTer">ENCC distribution DB</a>
+            to pull the DB9 builds onto your SD card.</p>
+          </div>
+        </li>
+        <li>
+          <span class="db9-steps__n">2</span>
+          <div>
+            <h4>Plug in your adapter</h4>
+            <p>Wire a DB9, DB15, SNAC8, or Saturn adapter to the DE10-Nano
+            <code>USER_IO</code> header — see the
+            <a href="vendor/user-guide/pinout-reference/">pinout reference</a>.</p>
+          </div>
+        </li>
+        <li>
+          <span class="db9-steps__n">3</span>
+          <div>
+            <h4>Pick it in the OSD</h4>
+            <p>Open a core's OSD and set <em>UserIO Joystick</em> to your adapter.
+            Drop in <a href="vendor/user-guide/pro-key/"><code>db9pro.key</code></a>
+            to unlock Saturn.</p>
+          </div>
+        </li>
+      </ol>
+      <div class="db9-install__cta">
+        <a href="vendor/user-guide/installation/" class="md-button md-button--primary">Full installation guide</a>
+        <a href="vendor/user-guide/troubleshooting/" class="md-button">Troubleshooting</a>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+{% block content %}{% endblock %}
+{% block footer %}{{ super() }}{% endblock %}

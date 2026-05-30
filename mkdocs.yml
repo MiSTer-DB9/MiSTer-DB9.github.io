@@ -1,0 +1,128 @@
+site_name: MiSTer-DB9
+site_url: https://mister-db9.github.io/
+site_description: >-
+  Zero-latency direct retro-controller input for MiSTer FPGA — Sega Genesis,
+  Atari, Neo Geo, Saturn and more, straight into the DE10-Nano USER_IO port via
+  DB9, DB15, SNAC8 and Saturn adapters.
+repo_url: https://github.com/MiSTer-DB9
+repo_name: MiSTer-DB9
+copyright: >-
+  GPLv3 — MiSTer-DB9, a fork of
+  <a href="https://github.com/MiSTer-devel">MiSTer FPGA</a>.
+
+docs_dir: docs
+
+# The user/maintainer guides are vendored unchanged from the Documentation repo
+# (docs/vendor/ submodule) and use directory-style cross-links (e.g. `controllers/`)
+# that resolve on the served site but mkdocs cannot map to a source file. Downgrade
+# those vendor-owned classes so --strict still catches real broken links in our own
+# pages without choking on content we deliberately don't edit.
+validation:
+  nav:
+    omitted_files: ignore   # docs/vendor/README.md is intentionally not in nav
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+    unrecognized_links: ignore
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - User Guide:
+      - vendor/user-guide/README.md
+      - Installation: vendor/user-guide/installation.md
+      - OSD menu: vendor/user-guide/osd-menu.md
+      - Pro key (db9pro.key): vendor/user-guide/pro-key.md
+      - Pinout reference: vendor/user-guide/pinout-reference.md
+      - Troubleshooting: vendor/user-guide/troubleshooting.md
+      - Controllers:
+          - Overview: vendor/user-guide/controllers/overview.md
+          - Mega Drive / Genesis: vendor/user-guide/controllers/mega-drive.md
+          - Neo Geo / Supergun (DB15): vendor/user-guide/controllers/neogeo-supergun.md
+          - Saturn: vendor/user-guide/controllers/saturn.md
+          - SNAC8: vendor/user-guide/controllers/snac8.md
+  - Maintainer Guide:
+      - vendor/maintainer-guide/README.md
+      - Architecture: vendor/maintainer-guide/architecture.md
+      - Markers: vendor/maintainer-guide/markers.md
+      - Porting guide: vendor/maintainer-guide/porting-guide.md
+      - Key-gate design: vendor/maintainer-guide/key-gate-design.md
+      - Patterns: vendor/maintainer-guide/patterns.md
+      - Workflow: vendor/maintainer-guide/workflow.md
+      - Release pipeline: vendor/maintainer-guide/release-pipeline.md
+      - Rules: vendor/maintainer-guide/rules.md
+      - Hazards:
+          - vendor/maintainer-guide/hazards/README.md
+          - MT32-pi contention: vendor/maintainer-guide/hazards/mt32-contention.md
+          - Saturn 2P ghost: vendor/maintainer-guide/hazards/saturn-2p-ghost.md
+          - Saturn 3D pad TL: vendor/maintainer-guide/hazards/saturn-3d-pad-tl.md
+          - Saturn OSD cycle: vendor/maintainer-guide/hazards/saturn-osd-cycle.md
+          - SNAC vs UserJoy: vendor/maintainer-guide/hazards/snac-vs-userjoy.md
+  - Supported Cores: cores.md
