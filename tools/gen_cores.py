@@ -82,7 +82,7 @@ def main() -> int:
         "",
         "# Supported Cores",
         "",
-        f"MiSTer-DB9 ships DB9 / DB15 / SNAC8 controller support across "
+        f"MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across "
         f"**{len(rows)} cores**, each kept in sync with its MiSTer-devel upstream "
         "by automated CI/CD. Every core below has its own fork repo; the build is "
         "distributed through the [ENCC distribution database]"
@@ -90,8 +90,7 @@ def main() -> int:
         "",
         "Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus "
         "the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at "
-        "runtime by `db9pro.key`. Cores whose console has a SNAC8 adapter also "
-        "expose a direct native-controller (SNAC8) option.",
+        "runtime by `db9pro.key`.",
         "",
         "| Core | Fork repo | Upstream |",
         "|---|---|---|",
