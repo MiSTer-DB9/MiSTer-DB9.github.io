@@ -9,11 +9,6 @@ is **not duplicated here** — it lives in the public
 a git submodule at `docs/vendor/`. The landing page and the generated
 *Supported Cores* page are the only content owned by this repo.
 
-Maintainer-facing docs are intentionally **not published** on this public site;
-they live in the private
-[`Documentation-Maintainer`](https://github.com/MiSTer-DB9/Documentation-Maintainer)
-repo.
-
 ## Build locally
 
 ```bash
