@@ -3,11 +3,16 @@
 Source for the MiSTer-DB9 website (served at <https://mister-db9.github.io/>).
 
 Built with [MkDocs](https://www.mkdocs.org/) + the
-[Material](https://squidfunk.github.io/mkdocs-material/) theme. The user and
-maintainer guides are **not duplicated here** — they live in the
+[Material](https://squidfunk.github.io/mkdocs-material/) theme. The end-user guide
+is **not duplicated here** — it lives in the public
 [`Documentation`](https://github.com/MiSTer-DB9/Documentation) repo, pulled in as
 a git submodule at `docs/vendor/`. The landing page and the generated
 *Supported Cores* page are the only content owned by this repo.
+
+Maintainer-facing docs are intentionally **not published** on this public site;
+they live in the private
+[`Documentation-Maintainer`](https://github.com/MiSTer-DB9/Documentation-Maintainer)
+repo.
 
 ## Build locally
 

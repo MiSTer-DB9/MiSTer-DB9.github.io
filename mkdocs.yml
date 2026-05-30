@@ -12,8 +12,8 @@ copyright: >-
 
 docs_dir: docs
 
-# The user/maintainer guides are vendored unchanged from the Documentation repo
-# (docs/vendor/ submodule) and use directory-style cross-links (e.g. `controllers/`)
+# The user guide is vendored unchanged from the public Documentation repo
+# (docs/vendor/ submodule) and uses directory-style cross-links (e.g. `controllers/`)
 # that resolve on the served site but mkdocs cannot map to a source file. Downgrade
 # those vendor-owned classes so --strict still catches real broken links in our own
 # pages without choking on content we deliberately don't edit.
@@ -108,21 +108,4 @@ nav:
           - Neo Geo / Supergun (DB15): vendor/user-guide/controllers/neogeo-supergun.md
           - Saturn: vendor/user-guide/controllers/saturn.md
           - SNAC8: vendor/user-guide/controllers/snac8.md
-  - Maintainer Guide:
-      - vendor/maintainer-guide/README.md
-      - Architecture: vendor/maintainer-guide/architecture.md
-      - Markers: vendor/maintainer-guide/markers.md
-      - Porting guide: vendor/maintainer-guide/porting-guide.md
-      - Key-gate design: vendor/maintainer-guide/key-gate-design.md
-      - Patterns: vendor/maintainer-guide/patterns.md
-      - Workflow: vendor/maintainer-guide/workflow.md
-      - Release pipeline: vendor/maintainer-guide/release-pipeline.md
-      - Rules: vendor/maintainer-guide/rules.md
-      - Hazards:
-          - vendor/maintainer-guide/hazards/README.md
-          - MT32-pi contention: vendor/maintainer-guide/hazards/mt32-contention.md
-          - Saturn 2P ghost: vendor/maintainer-guide/hazards/saturn-2p-ghost.md
-          - Saturn 3D pad TL: vendor/maintainer-guide/hazards/saturn-3d-pad-tl.md
-          - Saturn OSD cycle: vendor/maintainer-guide/hazards/saturn-osd-cycle.md
-          - SNAC vs UserJoy: vendor/maintainer-guide/hazards/snac-vs-userjoy.md
   - Supported Cores: cores.md
