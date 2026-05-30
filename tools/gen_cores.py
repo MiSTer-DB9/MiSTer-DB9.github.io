@@ -6,10 +6,9 @@ refreshes that file from the canonical fork list. Run it after Forks.ini changes
 
     python tools/gen_cores.py ../Forks_MiSTer/Forks.ini
 
-Saturn-port status is detected the same way the project does it (AGENTS.md truth
-source): a core counts as Saturn-ported iff <core_dir>/sys/joydb9saturn.v exists.
-Core dirs are looked up as siblings of the repo (../<RELEASE_CORE_NAME>_MiSTer).
-When the sibling clone is absent the Saturn column is left blank rather than wrong.
+Saturn adapter support is now universal across every fork (each core ships
+sys/joydb9saturn.v), so the page no longer carries a per-core Saturn column —
+just a note in the preamble.
 """
 
 from __future__ import annotations
@@ -54,13 +53,6 @@ def repo_slug(url: str) -> str:
     return s
 
 
-def is_saturn_ported(repo_root: str, core_name: str) -> bool | None:
-    core_dir = os.path.join(repo_root, "..", f"{core_name}_MiSTer")
-    if not os.path.isdir(core_dir):
-        return None  # sibling clone absent -> unknown
-    return os.path.isfile(os.path.join(core_dir, "sys", "joydb9saturn.v"))
-
-
 def main() -> int:
     if len(sys.argv) != 2:
         print(f"usage: {sys.argv[0]} <path/to/Forks.ini>", file=sys.stderr)
@@ -70,8 +62,7 @@ def main() -> int:
 
     syncing, sections = read_forks(forks_ini)
 
-    rows: list[tuple[str, str, str, str]] = []
-    saturn_known = False
+    rows: list[tuple[str, str, str]] = []
     for sec in syncing:
         if sec in SKIP_SECTIONS:
             continue
@@ -81,11 +72,7 @@ def main() -> int:
         upstream = meta.get("UPSTREAM_REPO", "")
         fork_cell = f"[{repo_slug(fork)}]({fork[:-4] if fork.endswith('.git') else fork})" if fork else "—"
         up_cell = f"[upstream]({upstream[:-4] if upstream.endswith('.git') else upstream})" if upstream else "—"
-        sat = is_saturn_ported(repo_root, name)
-        if sat is not None:
-            saturn_known = True
-        sat_cell = "✅" if sat else ("" if sat is None else "")
-        rows.append((name, fork_cell, up_cell, sat_cell))
+        rows.append((name, fork_cell, up_cell))
 
     rows.sort(key=lambda r: r[0].lower())
 
@@ -101,29 +88,21 @@ def main() -> int:
         "distributed through the [ENCC distribution database]"
         "(https://github.com/MiSTer-DB9/Distribution_MiSTer).",
         "",
+        "Every core supports the key-gated **Saturn** adapter "
+        "(`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`, in addition "
+        "to DB9MD / DB15 / SNAC8.",
+        "",
+        "| Core | Fork repo | Upstream |",
+        "|---|---|---|",
     ]
-    if saturn_known:
-        out.append(
-            "The **Saturn** column marks cores with key-gated Saturn adapter support "
-            "(`sys/joydb9saturn.v`), unlocked by `db9pro.key`. A blank cell means "
-            "DB9MD / DB15 / SNAC8 only."
-        )
-        out.append("")
-        out.append("| Core | Fork repo | Upstream | Saturn |")
-        out.append("|---|---|---|:---:|")
-        for name, fork, up, sat in rows:
-            out.append(f"| {name} | {fork} | {up} | {sat} |")
-    else:
-        out.append("| Core | Fork repo | Upstream |")
-        out.append("|---|---|---|")
-        for name, fork, up, _sat in rows:
-            out.append(f"| {name} | {fork} | {up} |")
+    for name, fork, up in rows:
+        out.append(f"| {name} | {fork} | {up} |")
     out.append("")
 
     dest = os.path.join(repo_root, "docs", "cores.md")
     with open(dest, "w", encoding="utf-8") as fh:
         fh.write("\n".join(out))
-    print(f"wrote {dest} ({len(rows)} cores, saturn_known={saturn_known})")
+    print(f"wrote {dest} ({len(rows)} cores)")
     return 0
 
 
