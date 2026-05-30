@@ -88,9 +88,9 @@ def main() -> int:
         "distributed through the [ENCC distribution database]"
         "(https://github.com/MiSTer-DB9/Distribution_MiSTer).",
         "",
-        "Every core supports the key-gated **Saturn** adapter "
-        "(`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`, in addition "
-        "to DB9MD / DB15 / SNAC8.",
+        "Every core supports DB9MD / DB15 and the direct SNAC8 cable path, "
+        "plus the key-gated **Saturn** and **PSX** UserIO Joystick adapters "
+        "(e.g. `sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.",
         "",
         "| Core | Fork repo | Upstream |",
         "|---|---|---|",
