@@ -103,7 +103,7 @@ nav:
       - Pinout reference: vendor/user-guide/pinout-reference.md
       - Troubleshooting: vendor/user-guide/troubleshooting.md
       - Controllers:
-          - Overview: vendor/user-guide/controllers/overview.md
+          - vendor/user-guide/controllers/README.md
           - Mega Drive / Genesis: vendor/user-guide/controllers/mega-drive.md
           - Neo Geo / Supergun (DB15): vendor/user-guide/controllers/neogeo-supergun.md
           - Saturn: vendor/user-guide/controllers/saturn.md
