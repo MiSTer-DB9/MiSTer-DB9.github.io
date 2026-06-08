@@ -3,7 +3,7 @@
 
 # Supported Cores
 
-MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **220 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **221 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
 
 Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.
 
@@ -64,6 +64,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Arcade-Gaplus | [MiSTer-DB9/Arcade-Gaplus_MiSTer](https://github.com/MiSTer-DB9/Arcade-Gaplus_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer) |
 | Arcade-Gauntlet | [MiSTer-DB9/Arcade-Gauntlet_MiSTer](https://github.com/MiSTer-DB9/Arcade-Gauntlet_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) |
 | Arcade-Gyruss | [MiSTer-DB9/MiSTer-Arcade-Gyruss](https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss) | [upstream](https://github.com/MrX-8B/MiSTer-Arcade-Gyruss) |
+| Arcade-IGSPGM | [MiSTer-DB9/Arcade-IGSPGM_MiSTer](https://github.com/MiSTer-DB9/Arcade-IGSPGM_MiSTer) | [upstream](https://github.com/wickerwaka/Arcade-IGSPGM_MiSTer) |
 | Arcade-IremM62 | [MiSTer-DB9/Arcade-IremM62_MiSTer](https://github.com/MiSTer-DB9/Arcade-IremM62_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) |
 | Arcade-IremM72 | [MiSTer-DB9/Arcade-IremM72_MiSTer](https://github.com/MiSTer-DB9/Arcade-IremM72_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IremM72_MiSTer) |
 | Arcade-IremM92 | [MiSTer-DB9/Arcade-IremM92_MiSTer](https://github.com/MiSTer-DB9/Arcade-IremM92_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IremM92_MiSTer) |
