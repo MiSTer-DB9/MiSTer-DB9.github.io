@@ -3,7 +3,7 @@
 
 # Supported Cores
 
-MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **243 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **244 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
 
 Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.
 
@@ -128,6 +128,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Arcade-Starforce | [MiSTer-DB9/Arcade-StarForce_MiSTer](https://github.com/MiSTer-DB9/Arcade-StarForce_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-StarForce_MiSTer) |
 | Arcade-SuperBreakout | [MiSTer-DB9/Arcade-SuperBreakout_MiSTer](https://github.com/MiSTer-DB9/Arcade-SuperBreakout_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-SuperBreakout_MiSTer) |
 | Arcade-SuprLoco | [MiSTer-DB9/Arcade-SuprLoco_MiSTer](https://github.com/MiSTer-DB9/Arcade-SuprLoco_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-SuprLoco_MiSTer) |
+| Arcade-TaitoF2 | [MiSTer-DB9/Arcade-TaitoF2_MiSTer](https://github.com/MiSTer-DB9/Arcade-TaitoF2_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-TaitoF2_MiSTer) |
 | Arcade-TaitoSJ | [MiSTer-DB9/Arcade-TaitoSystemSJ_MiSTer](https://github.com/MiSTer-DB9/Arcade-TaitoSystemSJ_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-TaitoSystemSJ_MiSTer) |
 | Arcade-TankBattalion | [MiSTer-DB9/Arcade-TankBattalion_MiSTer](https://github.com/MiSTer-DB9/Arcade-TankBattalion_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-TankBattalion_MiSTer) |
 | Arcade-Tecmo | [MiSTer-DB9/Arcade-Tecmo_MiSTer](https://github.com/MiSTer-DB9/Arcade-Tecmo_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Tecmo_MiSTer) |
