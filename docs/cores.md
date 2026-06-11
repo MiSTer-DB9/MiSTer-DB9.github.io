@@ -3,7 +3,7 @@
 
 # Supported Cores
 
-MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **240 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **243 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
 
 Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.
 
@@ -48,6 +48,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Arcade-CrazyBalloon | [MiSTer-DB9/Arcade-CrazyBalloon_MiSTer](https://github.com/MiSTer-DB9/Arcade-CrazyBalloon_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-CrazyBalloon_MiSTer) |
 | Arcade-CrazyClimber | [MiSTer-DB9/Arcade-CrazyClimber_MiSTer](https://github.com/MiSTer-DB9/Arcade-CrazyClimber_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-CrazyClimber_MiSTer) |
 | Arcade-CrazyKong | [MiSTer-DB9/Arcade-CrazyKong_MiSTer](https://github.com/MiSTer-DB9/Arcade-CrazyKong_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-CrazyKong_MiSTer) |
+| Arcade-Deco16 | [MiSTer-DB9/Arcade-Deco16_Mister](https://github.com/MiSTer-DB9/Arcade-Deco16_Mister) | [upstream](https://github.com/MiSTer-devel/Arcade-Deco16_Mister) |
 | Arcade-Defender | [MiSTer-DB9/Arcade-Defender_MiSTer](https://github.com/MiSTer-DB9/Arcade-Defender_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Defender_MiSTer) |
 | Arcade-DigDug | [MiSTer-DB9/Arcade-DigDug_MiSTer](https://github.com/MiSTer-DB9/Arcade-DigDug_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-DigDug_MiSTer) |
 | Arcade-Dominos | [MiSTer-DB9/Arcade-Dominos_MiSTer](https://github.com/MiSTer-DB9/Arcade-Dominos_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Dominos_MiSTer) |
@@ -156,6 +157,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | BBCBridgeCompanion | [MiSTer-DB9/BBCBridgeCompanion_MiSTer](https://github.com/MiSTer-DB9/BBCBridgeCompanion_MiSTer) | [upstream](https://github.com/MiSTer-devel/BBCBridgeCompanion_MiSTer) |
 | BBCMicro | [MiSTer-DB9/BBCMicro_MiSTer](https://github.com/MiSTer-DB9/BBCMicro_MiSTer) | [upstream](https://github.com/MiSTer-devel/BBCMicro_MiSTer) |
 | BK0011M | [MiSTer-DB9/BK0011M_MiSTer](https://github.com/MiSTer-DB9/BK0011M_MiSTer) | [upstream](https://github.com/MiSTer-devel/BK0011M_MiSTer) |
+| BloodBros | [MiSTer-DB9/Arcade-BloodBros_MiSTer](https://github.com/MiSTer-DB9/Arcade-BloodBros_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-BloodBros_MiSTer) |
 | BluePrint | [MiSTer-DB9/Arcade-BluePrint_MiSTer](https://github.com/MiSTer-DB9/Arcade-BluePrint_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-BluePrint_MiSTer) |
 | C128 | [MiSTer-DB9/C128_MiSTer](https://github.com/MiSTer-DB9/C128_MiSTer) | [upstream](https://github.com/MiSTer-devel/C128_MiSTer) |
 | C16 | [MiSTer-DB9/C16_MiSTer](https://github.com/MiSTer-DB9/C16_MiSTer) | [upstream](https://github.com/MiSTer-devel/C16_MiSTer) |
@@ -173,6 +175,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | ColecoVision | [MiSTer-DB9/ColecoVision_MiSTer](https://github.com/MiSTer-DB9/ColecoVision_MiSTer) | [upstream](https://github.com/MiSTer-devel/ColecoVision_MiSTer) |
 | CreatiVision | [MiSTer-DB9/CreatiVision_MiSTer](https://github.com/MiSTer-DB9/CreatiVision_MiSTer) | [upstream](https://github.com/MiSTer-devel/CreatiVision_MiSTer) |
 | Darius | [MiSTer-DB9/Arcade-Darius_MiSTer](https://github.com/MiSTer-DB9/Arcade-Darius_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Darius_MiSTer) |
+| DCon | [MiSTer-DB9/Arcade-Dcon_MiSTer](https://github.com/MiSTer-DB9/Arcade-Dcon_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Dcon_MiSTer) |
 | eg2000 | [MiSTer-DB9/EG2000_MiSTer](https://github.com/MiSTer-DB9/EG2000_MiSTer) | [upstream](https://github.com/MiSTer-devel/EG2000_MiSTer) |
 | Enterprise | [MiSTer-DB9/Enterprise_MiSTer](https://github.com/MiSTer-DB9/Enterprise_MiSTer) | [upstream](https://github.com/MiSTer-devel/Enterprise_MiSTer) |
 | EpochGalaxyII | [MiSTer-DB9/EpochGalaxy2_MiSTer](https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer) | [upstream](https://github.com/MiSTer-devel/EpochGalaxy2_MiSTer) |
