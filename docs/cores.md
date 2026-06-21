@@ -3,7 +3,7 @@
 
 # Supported Cores
 
-MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **245 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **246 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
 
 Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.
 
@@ -210,6 +210,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Odyssey2 | [MiSTer-DB9/Odyssey2_MiSTer](https://github.com/MiSTer-DB9/Odyssey2_MiSTer) | [upstream](https://github.com/MiSTer-devel/Odyssey2_MiSTer) |
 | Ondra_SPO186 | [MiSTer-DB9/OndraSPO186_MiSTer](https://github.com/MiSTer-DB9/OndraSPO186_MiSTer) | [upstream](https://github.com/MiSTer-devel/OndraSPO186_MiSTer) |
 | Oric | [MiSTer-DB9/Oric_MiSTer](https://github.com/MiSTer-DB9/Oric_MiSTer) | [upstream](https://github.com/MiSTer-devel/Oric_MiSTer) |
+| Paprium | [MiSTer-DB9/Paprium_MegaDrive_MiSTer](https://github.com/MiSTer-DB9/Paprium_MegaDrive_MiSTer) | [upstream](https://github.com/MisterPezz82/Paprium_MegaDrive_MiSTer) |
 | PC88 | [MiSTer-DB9/PC88_MiSTer](https://github.com/MiSTer-DB9/PC88_MiSTer) | [upstream](https://github.com/MiSTer-devel/PC88_MiSTer) |
 | PCFX | [MiSTer-DB9/PCFX_MiSTer](https://github.com/MiSTer-DB9/PCFX_MiSTer) | [upstream](https://github.com/MiSTer-devel/PCFX_MiSTer) |
 | PMD85 | [MiSTer-DB9/PMD85_MiSTer](https://github.com/MiSTer-DB9/PMD85_MiSTer) | [upstream](https://github.com/MiSTer-devel/PMD85_MiSTer) |
