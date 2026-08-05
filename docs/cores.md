@@ -3,7 +3,7 @@
 
 # Supported Cores
 
-MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **246 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **247 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
 
 Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.
 
@@ -70,7 +70,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Arcade-Gaplus | [MiSTer-DB9/Arcade-Gaplus_MiSTer](https://github.com/MiSTer-DB9/Arcade-Gaplus_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Gaplus_MiSTer) |
 | Arcade-Gauntlet | [MiSTer-DB9/Arcade-Gauntlet_MiSTer](https://github.com/MiSTer-DB9/Arcade-Gauntlet_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Gauntlet_MiSTer) |
 | Arcade-Gyruss | [MiSTer-DB9/MiSTer-Arcade-Gyruss](https://github.com/MiSTer-DB9/MiSTer-Arcade-Gyruss) | [upstream](https://github.com/MrX-8B/MiSTer-Arcade-Gyruss) |
-| Arcade-IGSPGM | [MiSTer-DB9/Arcade-IGSPGM_MiSTer](https://github.com/MiSTer-DB9/Arcade-IGSPGM_MiSTer) | [upstream](https://github.com/wickerwaka/Arcade-IGSPGM_MiSTer) |
+| Arcade-IGSPGM | [MiSTer-DB9/Arcade-IGSPGM_MiSTer](https://github.com/MiSTer-DB9/Arcade-IGSPGM_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IGSPGM_MiSTer) |
 | Arcade-Inferno | [MiSTer-DB9/Arcade-Inferno_MiSTer](https://github.com/MiSTer-DB9/Arcade-Inferno_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Inferno_MiSTer) |
 | Arcade-IremM107 | [MiSTer-DB9/Arcade-IremM107_MiSTer](https://github.com/MiSTer-DB9/Arcade-IremM107_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IremM107_MiSTer) |
 | Arcade-IremM62 | [MiSTer-DB9/Arcade-IremM62_MiSTer](https://github.com/MiSTer-DB9/Arcade-IremM62_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-IremM62_MiSTer) |
@@ -252,6 +252,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | WonderSwan | [MiSTer-DB9/WonderSwan_MiSTer](https://github.com/MiSTer-DB9/WonderSwan_MiSTer) | [upstream](https://github.com/MiSTer-devel/WonderSwan_MiSTer) |
 | X68000 | [MiSTer-DB9/X68000_MiSTer](https://github.com/MiSTer-DB9/X68000_MiSTer) | [upstream](https://github.com/MiSTer-devel/X68000_MiSTer) |
 | X68000USERIO2 | [MiSTer-DB9/X68000_MiSTer](https://github.com/MiSTer-DB9/X68000_MiSTer) | [upstream](https://github.com/MiSTer-devel/X68000_MiSTer) |
+| XNSYSTEM11 | [MiSTer-DB9/SYSTEM11_MiSTer](https://github.com/MiSTer-DB9/SYSTEM11_MiSTer) | [upstream](https://github.com/misteraddons/SYSTEM11_MiSTer) |
 | ZX-Spectrum | [MiSTer-DB9/ZX-Spectrum_MISTer](https://github.com/MiSTer-DB9/ZX-Spectrum_MISTer) | [upstream](https://github.com/MiSTer-devel/ZX-Spectrum_MISTer) |
 | ZX81 | [MiSTer-DB9/ZX81_MiSTer](https://github.com/MiSTer-DB9/ZX81_MiSTer) | [upstream](https://github.com/MiSTer-devel/ZX81_MiSTer) |
 | ZXNext | [MiSTer-DB9/ZXNext_MISTer](https://github.com/MiSTer-DB9/ZXNext_MISTer) | [upstream](https://github.com/MiSTer-devel/ZXNext_MISTer) |
