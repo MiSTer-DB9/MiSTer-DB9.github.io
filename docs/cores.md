@@ -3,7 +3,7 @@
 
 # Supported Cores
 
-MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **247 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **245 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
 
 Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.
 
@@ -20,8 +20,6 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Apple-II | [MiSTer-DB9/Apple-II_MiSTer](https://github.com/MiSTer-DB9/Apple-II_MiSTer) | [upstream](https://github.com/MiSTer-devel/Apple-II_MiSTer) |
 | Aquarius | [MiSTer-DB9/Aquarius_MISTer](https://github.com/MiSTer-DB9/Aquarius_MISTer) | [upstream](https://github.com/MiSTer-devel/Aquarius_MISTer) |
 | Arcade-Arkanoid | [MiSTer-DB9/Arcade-Arkanoid_MISTer](https://github.com/MiSTer-DB9/Arcade-Arkanoid_MISTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Arkanoid_MISTer) |
-| Arcade-Asteroids | [MiSTer-DB9/Arcade-Asteroids_MiSTer](https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer) |
-| Arcade-AsteroidsDeluxe | [MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister](https://github.com/MiSTer-DB9/Arcade-AsteroidsDeluxe_Mister) | [upstream](https://github.com/MiSTer-devel/Arcade-AsteroidsDeluxe_Mister) |
 | Arcade-Astrocade | [MiSTer-DB9/Arcade-Astrocade_MiSTer](https://github.com/MiSTer-DB9/Arcade-Astrocade_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Astrocade_MiSTer) |
 | Arcade-atarisys1 | [MiSTer-DB9/Arcade-Atari-system1_MiSTer](https://github.com/MiSTer-DB9/Arcade-Atari-system1_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Atari-system1_MiSTer) |
 | Arcade-AtariTetris | [MiSTer-DB9/Arcade-ATetris_MiSTer](https://github.com/MiSTer-DB9/Arcade-ATetris_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-ATetris_MiSTer) |
@@ -83,7 +81,6 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Arcade-Joust2 | [MiSTer-DB9/Arcade-Joust2_MiSTer](https://github.com/MiSTer-DB9/Arcade-Joust2_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Joust2_MiSTer) |
 | Arcade-KickAndRun | [MiSTer-DB9/Arcade-KickAndRun_MiSTer](https://github.com/MiSTer-DB9/Arcade-KickAndRun_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-KickAndRun_MiSTer) |
 | Arcade-LadyBug | [MiSTer-DB9/Arcade-LadyBug_MiSTer](https://github.com/MiSTer-DB9/Arcade-LadyBug_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-LadyBug_MiSTer) |
-| Arcade-LunarLander | [MiSTer-DB9/Arcade-LunarLander_MiSTer](https://github.com/MiSTer-DB9/Arcade-LunarLander_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-LunarLander_MiSTer) |
 | Arcade-MarioBros | [MiSTer-DB9/Arcade-MarioBros_MiSTer](https://github.com/MiSTer-DB9/Arcade-MarioBros_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MarioBros_MiSTer) |
 | Arcade-MCR1 | [MiSTer-DB9/Arcade-MCR1_MiSTer](https://github.com/MiSTer-DB9/Arcade-MCR1_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MCR1_MiSTer) |
 | Arcade-MCR2 | [MiSTer-DB9/Arcade-MCR2_MiSTer](https://github.com/MiSTer-DB9/Arcade-MCR2_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-MCR2_MiSTer) |
@@ -147,6 +144,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Arcadia | [MiSTer-DB9/Arcadia_MiSTer](https://github.com/MiSTer-DB9/Arcadia_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcadia_MiSTer) |
 | Archie | [MiSTer-DB9/Archie_MiSTer](https://github.com/MiSTer-DB9/Archie_MiSTer) | [upstream](https://github.com/MiSTer-devel/Archie_MiSTer) |
 | Arduboy | [MiSTer-DB9/Arduboy_MiSTer](https://github.com/MiSTer-DB9/Arduboy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arduboy_MiSTer) |
+| Asteroids | [MiSTer-DB9/Arcade-Asteroids_MiSTer](https://github.com/MiSTer-DB9/Arcade-Asteroids_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Asteroids_MiSTer) |
 | Astrocade | [MiSTer-DB9/Astrocade_MiSTer](https://github.com/MiSTer-DB9/Astrocade_MiSTer) | [upstream](https://github.com/MiSTer-devel/Astrocade_MiSTer) |
 | Atari5200 | [MiSTer-DB9/Atari800_MiSTer](https://github.com/MiSTer-DB9/Atari800_MiSTer) | [upstream](https://github.com/MiSTer-devel/Atari800_MiSTer) |
 | Atari7800 | [MiSTer-DB9/Atari7800_MiSTer](https://github.com/MiSTer-DB9/Atari7800_MiSTer) | [upstream](https://github.com/MiSTer-devel/Atari7800_MiSTer) |
