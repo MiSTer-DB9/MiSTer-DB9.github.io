@@ -3,7 +3,7 @@
 
 # Supported Cores
 
-MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **245 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **246 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
 
 Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.
 
@@ -201,6 +201,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | MSX1 | [MiSTer-DB9/MSX1_MiSTer](https://github.com/MiSTer-DB9/MSX1_MiSTer) | [upstream](https://github.com/MiSTer-devel/MSX1_MiSTer) |
 | MSX2 | [MiSTer-DB9/MSX1_MiSTer](https://github.com/MiSTer-DB9/MSX1_MiSTer) | [upstream](https://github.com/MiSTer-devel/MSX1_MiSTer) |
 | MyVision | [MiSTer-DB9/MyVision_MiSTer](https://github.com/MiSTer-DB9/MyVision_MiSTer) | [upstream](https://github.com/MiSTer-devel/MyVision_MiSTer) |
+| Namco_NB2 | [MiSTer-DB9/Namco_NB2_MiSTer](https://github.com/MiSTer-DB9/Namco_NB2_MiSTer) | [upstream](https://github.com/kyledlester/Namco_NB2_MiSTer) |
 | NaughtyBoy | [MiSTer-DB9/Arcade-NaughtyBoy_MiSTer](https://github.com/MiSTer-DB9/Arcade-NaughtyBoy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-NaughtyBoy_MiSTer) |
 | NeoGeo | [MiSTer-DB9/NeoGeo_MiSTer](https://github.com/MiSTer-DB9/NeoGeo_MiSTer) | [upstream](https://github.com/MiSTer-devel/NeoGeo_MiSTer) |
 | NeoGeo_24MHz_cpu_only | [MiSTer-DB9/NeoGeo_MiSTer](https://github.com/MiSTer-DB9/NeoGeo_MiSTer) | [upstream](https://github.com/MiSTer-devel/NeoGeo_MiSTer) |
