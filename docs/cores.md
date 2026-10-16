@@ -3,12 +3,13 @@
 
 # Supported Cores
 
-MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **268 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
+MiSTer-DB9 ships DB9 / DB15 / Saturn controller support across **280 cores**, each kept in sync with its MiSTer-devel upstream by automated CI/CD. Every core below has its own fork repo; the build is distributed through the [ENCC distribution database](https://github.com/MiSTer-DB9/Distribution_MiSTer).
 
 Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-gated **Saturn** adapter (`sys/joydb9saturn.v`), unlocked at runtime by `db9pro.key`.
 
 | Core | Fork repo | Upstream |
 |---|---|---|
+| 3DO | [MiSTer-DB9/3DO_MiSTer](https://github.com/MiSTer-DB9/3DO_MiSTer) | [upstream](https://github.com/MiSTer-devel/3DO_MiSTer) |
 | AcornAtom | [MiSTer-DB9/AcornAtom_MiSTer](https://github.com/MiSTer-DB9/AcornAtom_MiSTer) | [upstream](https://github.com/MiSTer-devel/AcornAtom_MiSTer) |
 | AcornElectron | [MiSTer-DB9/AcornElectron_MiSTer](https://github.com/MiSTer-DB9/AcornElectron_MiSTer) | [upstream](https://github.com/MiSTer-devel/AcornElectron_MiSTer) |
 | AdventureVision | [MiSTer-DB9/AdventureVision_MiSTer](https://github.com/MiSTer-DB9/AdventureVision_MiSTer) | [upstream](https://github.com/MiSTer-devel/AdventureVision_MiSTer) |
@@ -171,6 +172,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | C64 | [MiSTer-DB9/C64_MiSTer](https://github.com/MiSTer-DB9/C64_MiSTer) | [upstream](https://github.com/MiSTer-devel/C64_MiSTer) |
 | Casio_PV-1000 | [MiSTer-DB9/Casio_PV-1000_MiSTer](https://github.com/MiSTer-DB9/Casio_PV-1000_MiSTer) | [upstream](https://github.com/MiSTer-devel/Casio_PV-1000_MiSTer) |
 | Casio_PV-2000 | [MiSTer-DB9/Casio_PV-2000_MiSTer](https://github.com/MiSTer-DB9/Casio_PV-2000_MiSTer) | [upstream](https://github.com/MiSTer-devel/Casio_PV-2000_MiSTer) |
+| CBM-II | [MiSTer-DB9/CBM-II_MiSTer](https://github.com/MiSTer-DB9/CBM-II_MiSTer) | [upstream](https://github.com/MiSTer-devel/CBM-II_MiSTer) |
 | CDi | [MiSTer-DB9/CDi_MiSTer](https://github.com/MiSTer-DB9/CDi_MiSTer) | [upstream](https://github.com/MiSTer-devel/CDi_MiSTer) |
 | ChampionBaseball | [MiSTer-DB9/Arcade-ChampionBaseball_MiSTer](https://github.com/MiSTer-DB9/Arcade-ChampionBaseball_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-ChampionBaseball_MiSTer) |
 | ChannelF | [MiSTer-DB9/ChannelF_MiSTer](https://github.com/MiSTer-DB9/ChannelF_MiSTer) | [upstream](https://github.com/MiSTer-devel/ChannelF_MiSTer) |
@@ -189,22 +191,27 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Enterprise | [MiSTer-DB9/Enterprise_MiSTer](https://github.com/MiSTer-DB9/Enterprise_MiSTer) | [upstream](https://github.com/MiSTer-devel/Enterprise_MiSTer) |
 | EpochGalaxyII | [MiSTer-DB9/EpochGalaxy2_MiSTer](https://github.com/MiSTer-DB9/EpochGalaxy2_MiSTer) | [upstream](https://github.com/MiSTer-devel/EpochGalaxy2_MiSTer) |
 | FlappyBird | [MiSTer-DB9/FlappyBird_MiSTer](https://github.com/MiSTer-DB9/FlappyBird_MiSTer) | [upstream](https://github.com/MiSTer-devel/FlappyBird_MiSTer) |
+| FM-7 | [MiSTer-DB9/FM-7_MiSTer](https://github.com/MiSTer-DB9/FM-7_MiSTer) | [upstream](https://github.com/MiSTer-devel/FM-7_MiSTer) |
 | Gamate | [MiSTer-DB9/Gamate_MiSTer](https://github.com/MiSTer-DB9/Gamate_MiSTer) | [upstream](https://github.com/MiSTer-devel/Gamate_MiSTer) |
 | GameAndWatch | [MiSTer-DB9/GameAndWatch_MiSTer](https://github.com/MiSTer-DB9/GameAndWatch_MiSTer) | [upstream](https://github.com/MiSTer-devel/GameAndWatch_MiSTer) |
 | Gameboy | [MiSTer-DB9/Gameboy_MiSTer](https://github.com/MiSTer-DB9/Gameboy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Gameboy_MiSTer) |
 | Gameboy2P | [MiSTer-DB9/Gameboy_MiSTer](https://github.com/MiSTer-DB9/Gameboy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Gameboy_MiSTer) |
+| GameCom | [MiSTer-DB9/GameCom_MiSTer](https://github.com/MiSTer-DB9/GameCom_MiSTer) | [upstream](https://github.com/MiSTer-devel/GameCom_MiSTer) |
+| GameKing | [MiSTer-DB9/GameKing_MiSTer](https://github.com/MiSTer-DB9/GameKing_MiSTer) | [upstream](https://github.com/MiSTer-devel/GameKing_MiSTer) |
 | GBA | [MiSTer-DB9/GBA_MiSTer](https://github.com/MiSTer-DB9/GBA_MiSTer) | [upstream](https://github.com/MiSTer-devel/GBA_MiSTer) |
 | GBA2P | [MiSTer-DB9/GBA_MiSTer](https://github.com/MiSTer-DB9/GBA_MiSTer) | [upstream](https://github.com/MiSTer-devel/GBA_MiSTer) |
 | GBA_accuracy | [MiSTer-DB9/GBA_MiSTer](https://github.com/MiSTer-DB9/GBA_MiSTer) | [upstream](https://github.com/MiSTer-devel/GBA_MiSTer) |
 | Genesis | [MiSTer-DB9/Genesis_MiSTer](https://github.com/MiSTer-DB9/Genesis_MiSTer) | [upstream](https://github.com/MiSTer-devel/Genesis_MiSTer) |
 | GnW | [MiSTer-DB9/GnW_MiSTer](https://github.com/MiSTer-DB9/GnW_MiSTer) | [upstream](https://github.com/MiSTer-devel/GnW_MiSTer) |
 | Interact | [MiSTer-DB9/Interact_MiSTer](https://github.com/MiSTer-DB9/Interact_MiSTer) | [upstream](https://github.com/MiSTer-devel/Interact_MiSTer) |
+| JR100 | [MiSTer-DB9/JR100_MiSTer](https://github.com/MiSTer-DB9/JR100_MiSTer) | [upstream](https://github.com/MiSTer-devel/JR100_MiSTer) |
 | JunoFirst | [MiSTer-DB9/Arcade-JunoFirst_MiSTer](https://github.com/MiSTer-DB9/Arcade-JunoFirst_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-JunoFirst_MiSTer) |
 | Jupiter | [MiSTer-DB9/Jupiter_MiSTer](https://github.com/MiSTer-DB9/Jupiter_MiSTer) | [upstream](https://github.com/MiSTer-devel/Jupiter_MiSTer) |
 | Kangaroo | [MiSTer-DB9/Arcade-Kangaroo_MiSTer](https://github.com/MiSTer-DB9/Arcade-Kangaroo_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Kangaroo_MiSTer) |
 | Klax | [MiSTer-DB9/Arcade-Klax_MiSTer](https://github.com/MiSTer-DB9/Arcade-Klax_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Klax_MiSTer) |
 | Kyugo | [MiSTer-DB9/Arcade-Kyugo_MiSTer](https://github.com/MiSTer-DB9/Arcade-Kyugo_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Kyugo_MiSTer) |
 | Laser310 | [MiSTer-DB9/Laser310_MiSTer](https://github.com/MiSTer-DB9/Laser310_MiSTer) | [upstream](https://github.com/MiSTer-devel/Laser310_MiSTer) |
+| Loopy | [MiSTer-DB9/Loopy_MiSTer](https://github.com/MiSTer-DB9/Loopy_MiSTer) | [upstream](https://github.com/MiSTer-devel/Loopy_MiSTer) |
 | Lynx48 | [MiSTer-DB9/Lynx48_MiSTer](https://github.com/MiSTer-DB9/Lynx48_MiSTer) | [upstream](https://github.com/MiSTer-devel/Lynx48_MiSTer) |
 | MegaCD | [MiSTer-DB9/MegaCD_MiSTer](https://github.com/MiSTer-DB9/MegaCD_MiSTer) | [upstream](https://github.com/MiSTer-devel/MegaCD_MiSTer) |
 | MegaDrive | [MiSTer-DB9/MegaDrive_MiSTer](https://github.com/MiSTer-DB9/MegaDrive_MiSTer) | [upstream](https://github.com/MiSTer-devel/MegaDrive_MiSTer) |
@@ -219,6 +226,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | NeoGeo | [MiSTer-DB9/NeoGeo_MiSTer](https://github.com/MiSTer-DB9/NeoGeo_MiSTer) | [upstream](https://github.com/MiSTer-devel/NeoGeo_MiSTer) |
 | NeoGeo_24MHz_cpu_only | [MiSTer-DB9/NeoGeo_MiSTer](https://github.com/MiSTer-DB9/NeoGeo_MiSTer) | [upstream](https://github.com/MiSTer-devel/NeoGeo_MiSTer) |
 | NES | [MiSTer-DB9/NES_MiSTer](https://github.com/MiSTer-DB9/NES_MiSTer) | [upstream](https://github.com/MiSTer-devel/NES_MiSTer) |
+| NGPC | [MiSTer-DB9/NGPC_MiSTer](https://github.com/MiSTer-DB9/NGPC_MiSTer) | [upstream](https://github.com/MiSTer-devel/NGPC_MiSTer) |
 | Odyssey2 | [MiSTer-DB9/Odyssey2_MiSTer](https://github.com/MiSTer-DB9/Odyssey2_MiSTer) | [upstream](https://github.com/MiSTer-devel/Odyssey2_MiSTer) |
 | Ondra_SPO186 | [MiSTer-DB9/OndraSPO186_MiSTer](https://github.com/MiSTer-DB9/OndraSPO186_MiSTer) | [upstream](https://github.com/MiSTer-devel/OndraSPO186_MiSTer) |
 | Oric | [MiSTer-DB9/Oric_MiSTer](https://github.com/MiSTer-DB9/Oric_MiSTer) | [upstream](https://github.com/MiSTer-devel/Oric_MiSTer) |
@@ -246,12 +254,15 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | SMS | [MiSTer-DB9/SMS_MiSTer](https://github.com/MiSTer-DB9/SMS_MiSTer) | [upstream](https://github.com/MiSTer-devel/SMS_MiSTer) |
 | SNES | [MiSTer-DB9/SNES_MiSTer](https://github.com/MiSTer-DB9/SNES_MiSTer) | [upstream](https://github.com/MiSTer-devel/SNES_MiSTer) |
 | SordM5 | [MiSTer-DB9/SordM5_MiSTer](https://github.com/MiSTer-DB9/SordM5_MiSTer) | [upstream](https://github.com/MiSTer-devel/SordM5_MiSTer) |
+| Studio-II | [MiSTer-DB9/StudioII_MiSTer](https://github.com/MiSTer-DB9/StudioII_MiSTer) | [upstream](https://github.com/MiSTer-devel/StudioII_MiSTer) |
 | Super_Vision_8000 | [MiSTer-DB9/Super_Vision_8000_MiSTer](https://github.com/MiSTer-DB9/Super_Vision_8000_MiSTer) | [upstream](https://github.com/MiSTer-devel/Super_Vision_8000_MiSTer) |
+| SuperAcan | [MiSTer-DB9/SuperACan_MiSTer](https://github.com/MiSTer-DB9/SuperACan_MiSTer) | [upstream](https://github.com/MiSTer-devel/SuperACan_MiSTer) |
 | SuperVision | [MiSTer-DB9/SuperVision_MiSTer](https://github.com/MiSTer-DB9/SuperVision_MiSTer) | [upstream](https://github.com/MiSTer-devel/SuperVision_MiSTer) |
 | Svi328 | [MiSTer-DB9/SVI328_MiSTer](https://github.com/MiSTer-DB9/SVI328_MiSTer) | [upstream](https://github.com/MiSTer-devel/SVI328_MiSTer) |
 | Tamagotchi | [MiSTer-DB9/Tamagotchi_MiSTer](https://github.com/MiSTer-DB9/Tamagotchi_MiSTer) | [upstream](https://github.com/MiSTer-devel/Tamagotchi_MiSTer) |
 | Tank | [MiSTer-DB9/Arcade-Tank_MiSTer](https://github.com/MiSTer-DB9/Arcade-Tank_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Tank_MiSTer) |
 | TatungEinstein | [MiSTer-DB9/TatungEinstein_MiSTer](https://github.com/MiSTer-DB9/TatungEinstein_MiSTer) | [upstream](https://github.com/MiSTer-devel/TatungEinstein_MiSTer) |
+| Thomson-TOMO | [MiSTer-DB9/Thomson-TOMO](https://github.com/MiSTer-DB9/Thomson-TOMO) | [upstream](https://github.com/MiSTer-devel/Thomson-TOMO) |
 | Ti994a | [MiSTer-DB9/TI-99_4A_MiSTer](https://github.com/MiSTer-DB9/TI-99_4A_MiSTer) | [upstream](https://github.com/MiSTer-devel/TI-99_4A_MiSTer) |
 | TIAMC1 | [MiSTer-DB9/Arcade-TIAMC1_MiSTer](https://github.com/MiSTer-DB9/Arcade-TIAMC1_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-TIAMC1_MiSTer) |
 | TK2000 | [MiSTer-DB9/TK2000_MiSTer](https://github.com/MiSTer-DB9/TK2000_MiSTer) | [upstream](https://github.com/MiSTer-devel/TK2000_MiSTer) |
@@ -269,6 +280,7 @@ Every core supports the DB9MD and DB15 `UserIO Joystick` adapters, plus the key-
 | Vectrex | [MiSTer-DB9/Vectrex_MiSTer](https://github.com/MiSTer-DB9/Vectrex_MiSTer) | [upstream](https://github.com/MiSTer-devel/Vectrex_MiSTer) |
 | VIC20 | [MiSTer-DB9/VIC20_MiSTer](https://github.com/MiSTer-DB9/VIC20_MiSTer) | [upstream](https://github.com/MiSTer-devel/VIC20_MiSTer) |
 | Vindicators | [MiSTer-DB9/Arcade-Vindicators_MiSTer](https://github.com/MiSTer-DB9/Arcade-Vindicators_MiSTer) | [upstream](https://github.com/MiSTer-devel/Arcade-Vindicators_MiSTer) |
+| VirtualBoy | [MiSTer-DB9/VirtualBoy_MiSTer](https://github.com/MiSTer-DB9/VirtualBoy_MiSTer) | [upstream](https://github.com/MiSTer-devel/VirtualBoy_MiSTer) |
 | WonderSwan | [MiSTer-DB9/WonderSwan_MiSTer](https://github.com/MiSTer-DB9/WonderSwan_MiSTer) | [upstream](https://github.com/MiSTer-devel/WonderSwan_MiSTer) |
 | X68000 | [MiSTer-DB9/X68000_MiSTer](https://github.com/MiSTer-DB9/X68000_MiSTer) | [upstream](https://github.com/MiSTer-devel/X68000_MiSTer) |
 | X68000USERIO2 | [MiSTer-DB9/X68000_MiSTer](https://github.com/MiSTer-DB9/X68000_MiSTer) | [upstream](https://github.com/MiSTer-devel/X68000_MiSTer) |
